@@ -164,7 +164,8 @@ export default function Dashboard() {
               </div>
               <span className="font-semibold">Cadastro</span>
               <span className="text-center text-xs text-gray-600">
-                Qualquer pessoa pode ser mentor ou mentorado! Basta se inscrever e vincular seu LinkedIn.
+                Qualquer pessoa pode ser mentor ou mentorado! Basta se inscrever
+                e vincular seu LinkedIn.
               </span>
             </div>
             <div className="flex flex-col items-center">

@@ -13,8 +13,8 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-  pageName="Fale com o MentorQuest"
-  description="Entre em contato para tirar dúvidas, sugerir melhorias ou saber mais sobre como o MentorQuest pode impulsionar sua carreira e ampliar seu networking profissional."
+        pageName="Fale com o MentorQuest"
+        description="Entre em contato para tirar dúvidas, sugerir melhorias ou saber mais sobre como o MentorQuest pode impulsionar sua carreira e ampliar seu networking profissional."
       />
 
       <Contact />

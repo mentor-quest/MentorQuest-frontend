@@ -16,7 +16,9 @@ const NewsLatterBox = () => {
         Inscreva-se para receber novidades
       </h3>
       <p className="border-body-color/25 text-body-color mb-11 border-b pb-11 text-base leading-relaxed dark:border-white/25">
-        Receba novidades, dicas e conteúdos exclusivos do MentorQuest para impulsionar sua carreira, ampliar seu networking e conquistar certificações reconhecidas no LinkedIn.
+        Receba novidades, dicas e conteúdos exclusivos do MentorQuest para
+        impulsionar sua carreira, ampliar seu networking e conquistar
+        certificações reconhecidas no LinkedIn.
       </p>
       <div>
         <input
@@ -37,7 +39,8 @@ const NewsLatterBox = () => {
           className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark mb-5 flex w-full cursor-pointer items-center justify-center rounded-xs px-9 py-4 text-base font-medium text-white duration-300"
         />
         <p className="text-body-color dark:text-body-color-dark text-center text-base leading-relaxed">
-          Garantimos sua privacidade: nada de spam, apenas conteúdos relevantes para seu desenvolvimento profissional.
+          Garantimos sua privacidade: nada de spam, apenas conteúdos relevantes
+          para seu desenvolvimento profissional.
         </p>
       </div>
 
