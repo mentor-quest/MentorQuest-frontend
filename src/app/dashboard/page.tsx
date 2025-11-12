@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Button from "@mui/material/Button";
 import TrilhaForm from "@/components/TrilhaForm";
 
 export default function Dashboard() {
@@ -128,48 +129,109 @@ export default function Dashboard() {
                 setNovaTarefa({ ...novaTarefa, descricao: e.target.value })
               }
             />
-            <button
+            <Button
               type="submit"
-              className="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+              variant="contained"
+              color="primary"
+              sx={{ minWidth: 120 }}
             >
               Criar
-            </button>
+            </Button>
           </form>
         </div>
-        {/* Tarefas disponíveis */}
+        {/* Tarefas disponíveis agrupadas por trilha */}
         <div className="mb-8">
           <h2 className="mb-4 text-2xl font-bold text-blue-700">
             Tarefas Disponíveis
           </h2>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            {["React", "Vue", "Node"].map((tec) => (
-              <div key={tec} className="rounded-lg bg-white p-4 shadow">
-                <h3
-                  className={`mb-2 text-lg font-bold ${tec === "React" ? "text-blue-600" : tec === "Vue" ? "text-green-600" : "text-indigo-600"}`}
-                >
-                  {tec}
-                </h3>
-                <ul>
-                  {tarefas
-                    .filter((t) => t.tecnologia === tec)
-                    .map((t, idx) => (
-                      <li key={idx} className="mb-3">
-                        <span className="font-semibold">Nível {t.nivel}:</span>{" "}
-                        {t.descricao}
-                        <button
-                          className={`ml-2 rounded bg-blue-600 px-2 py-1 text-xs text-white hover:bg-blue-700 ${inscritos.includes(idx) ? "cursor-not-allowed opacity-50" : ""}`}
-                          disabled={inscritos.includes(idx)}
-                          onClick={() => handleInscrever(idx)}
-                        >
-                          {inscritos.includes(idx)
-                            ? "Inscrito"
-                            : "Inscrever-se"}
-                        </button>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            ))}
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {trilhas.length > 0
+              ? trilhas.map((trilha, tIdx) => (
+                  <div key={tIdx} className="rounded-lg bg-white p-4 shadow">
+                    <h3 className="mb-2 text-lg font-bold text-blue-600">
+                      {trilha.nome}
+                    </h3>
+                    <ul>
+                      {tarefas.filter((t) => t.tecnologia === trilha.nome)
+                        .length > 0 ? (
+                        tarefas
+                          .filter((t) => t.tecnologia === trilha.nome)
+                          .map((t, idx) => (
+                            <li key={idx} className="mb-3">
+                              <span className="font-semibold">
+                                Nível {t.nivel}:
+                              </span>{" "}
+                              {t.descricao}
+                              <Button
+                                variant="contained"
+                                color={
+                                  inscritos.includes(idx)
+                                    ? "success"
+                                    : "primary"
+                                }
+                                size="small"
+                                disabled={inscritos.includes(idx)}
+                                onClick={() => handleInscrever(idx)}
+                                sx={{ ml: 1, minWidth: 100 }}
+                              >
+                                {inscritos.includes(idx)
+                                  ? "Inscrito"
+                                  : "Inscrever-se"}
+                              </Button>
+                            </li>
+                          ))
+                      ) : (
+                        <li className="text-gray-400">
+                          Nenhuma tarefa cadastrada nesta trilha.
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                ))
+              : ["React", "Vue", "Node"].map((tec, tIdx) => (
+                  <div key={tIdx} className="rounded-lg bg-white p-4 shadow">
+                    <h3
+                      className={`mb-2 text-lg font-bold ${tec === "React" ? "text-blue-600" : tec === "Vue" ? "text-green-600" : "text-indigo-600"}`}
+                    >
+                      {tec}
+                    </h3>
+                    <ul>
+                      {tarefas.filter((t) => t.tecnologia === tec).length >
+                      0 ? (
+                        tarefas
+                          .filter((t) => t.tecnologia === tec)
+                          .map((t, idx) => (
+                            <li key={idx} className="mb-3">
+                              <span className="font-semibold">
+                                Nível {t.nivel}:
+                              </span>{" "}
+                              {t.descricao}
+                              <Button
+                                variant="contained"
+                                color={
+                                  inscritos.includes(idx)
+                                    ? "success"
+                                    : "primary"
+                                }
+                                size="small"
+                                disabled={inscritos.includes(idx)}
+                                onClick={() => handleInscrever(idx)}
+                                sx={{ ml: 1, minWidth: 100 }}
+                              >
+                                {inscritos.includes(idx)
+                                  ? "Inscrito"
+                                  : "Inscrever-se"}
+                              </Button>
+                            </li>
+                          ))
+                      ) : (
+                        <li className="text-gray-400">
+                          Nenhuma tarefa cadastrada nesta trilha.
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                ))}
           </div>
         </div>
         {/* Guia de etapas do fluxo de uso */}
