@@ -1,74 +1,57 @@
-# Startup - Free Next.js Startup Website Template
+# MentorQuest
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+MentorQuest é uma plataforma de mentoria online que conecta mentores e mentorados, promovendo desenvolvimento profissional, engajamento no LinkedIn e networking qualificado.
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## Propósito
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+Permitir que mentores criem atividades personalizadas para mentorados, avaliem seu desempenho e emitam certificados de aptidão, enquanto ambos ampliam sua visibilidade e conexões no LinkedIn.
 
-### 🙌 Detailed comparison between the Free and Pro versions of Startup
+## Funcionalidades Principais
 
-| Feature             | Free | Pro |
-|---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+- Cadastro de mentores e mentorados com perfil profissional e integração opcional ao LinkedIn
+- Sistema de busca e matching por interesses, habilidades e objetivos
+- Criação de atividades personalizadas com prazos e critérios claros de avaliação
+- Avaliação detalhada das atividades e feedback do mentor
+- Emissão automática de certificados de aptidão, compartilháveis no LinkedIn
+- Espaço para networking, fóruns e eventos online
+- Plano gratuito e opções premium para recursos avançados
 
+## Diferenciais
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+- Integração direta com o LinkedIn para engajamento e visibilidade
+- Certificados validados por mentores, garantindo credibilidade
+- Benefícios mútuos: mentores ganham reconhecimento, mentorados adquirem habilidades certificadas
 
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
+## Requisitos Técnicos
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+- Site responsivo, compatível com desktop e mobile
+- Banco de dados seguro para perfis, atividades, avaliações e certificados
+- Autenticação segura (OAuth, LGPD/GDPR)
+- Escalabilidade em nuvem
 
+## Modelo de Negócio
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+- Gratuito: acesso básico para mentorados e mentores
+- Premium: recursos avançados, certificados personalizados, destaque na plataforma
+- Monetização por assinaturas, taxas opcionais e parcerias corporativas
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+## Como usar
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+1. Cadastre-se como mentor ou mentorado (opcionalmente via LinkedIn)
+2. Conecte-se com mentores/mentorados
+3. Crie ou receba atividades personalizadas
+4. Submeta e avalie atividades
+5. Receba certificados e compartilhe conquistas no LinkedIn
+6. Participe da comunidade e amplie seu networking
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## Licença
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+MentorQuest é gratuito para uso pessoal e comercial. Consulte os termos para detalhes sobre uso corporativo e premium.
 
-### ⚡ Deploy Now
+## Suporte
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+Se você gostou do projeto, contribua com feedback ou divulgue para ajudar a comunidade crescer!
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+---
 
-
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
-
-### Update Log
-
-**10 April 2025**
-- Fix peer deps issue with Next.js 15
-- Upgrade to tailwind v4
-- Refactored blog cards for handling edge cases(text ellipsis on bio, keeping author details at the bottom etc.)
-- Re-wrote blog details page with icons separation, fallback author image and better markup.
-- Fixed duplicate key errors on homepage.
-- Separated icons on theme-switcher button, and refactored scroll-to-top button.
-
-**29 Jan 2025**
-- Upgraded to Next.js 15
+> Projeto em desenvolvimento. Para roadmap, contribuições e contato, acesse o LinkedIn do time ou abra uma issue.

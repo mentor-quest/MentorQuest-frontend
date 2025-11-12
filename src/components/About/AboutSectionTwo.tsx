@@ -20,37 +20,40 @@ const AboutSectionTwo = () => {
                 src="/images/about/about-image-2-dark.svg"
                 alt="about image"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                  Atividades práticas e personalizadas
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                  No MentorQuest, mentores criam atividades sob medida para cada
+                  mentorado, promovendo aprendizado prático, evolução contínua e
+                  certificação reconhecida no LinkedIn.
                 </p>
               </div>
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                  Feedback detalhado e evolução contínua
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                  Receba orientações personalizadas, ajuste suas entregas e
+                  evolua com o acompanhamento dos mentores. Cada atividade é uma
+                  oportunidade de crescimento profissional.
                 </p>
               </div>
               <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                  Certificação e visibilidade no LinkedIn
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                  Ao concluir as atividades, conquiste certificados validados
+                  por mentores e compartilhe automaticamente suas conquistas no
+                  LinkedIn, ampliando sua credibilidade e oportunidades.
                 </p>
               </div>
             </div>

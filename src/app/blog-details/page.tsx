@@ -19,8 +19,8 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  Como o MentorQuest transforma sua carreira: networking,
+                  atividades práticas e certificação no LinkedIn
                 </h2>
                 <div className="border-body-color/10 mb-10 flex flex-wrap items-center justify-between border-b pb-4 dark:border-white/10">
                   <div className="flex flex-wrap items-center">
@@ -104,9 +104,11 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    O MentorQuest conecta profissionais a mentores experientes,
+                    promovendo desenvolvimento prático, networking qualificado e
+                    certificação reconhecida no LinkedIn. Descubra como
+                    atividades personalizadas e feedback detalhado podem
+                    transformar sua carreira.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="relative aspect-97/60 w-full sm:aspect-97/44">
@@ -119,54 +121,48 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                    Com o MentorQuest, mentores criam atividades práticas e
+                    personalizadas para mentorados, com critérios claros e
+                    prazos definidos. O mentorado recebe feedback detalhado,
+                    pode ajustar suas entregas e evoluir continuamente,
+                    conquistando certificados que ampliam sua visibilidade no
+                    LinkedIn.
                   </p>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                    Networking é parte fundamental do MentorQuest: participe de
+                    fóruns, webinars e eventos online para ampliar sua rede de
+                    contatos, trocar experiências e crescer profissionalmente
+                    junto à comunidade.
                   </p>
                   <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
-                    Digital marketplace for Ui/Ux designers.
+                    Certificação, Visibilidade e Crescimento Profissional.
                   </h3>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    Ao completar todas as atividades com excelência, o mentorado
+                    recebe certificado validado pelo mentor, que pode ser
+                    baixado em PDF e compartilhado automaticamente no LinkedIn,
+                    ampliando sua credibilidade e oportunidades profissionais.
                   </p>
                   <ul className="text-body-color mb-10 list-inside list-disc">
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                      Matching inteligente entre mentores e mentorados.
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                      Atividades práticas e feedback detalhado.
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                      Certificados validados e compartilháveis no LinkedIn.
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
+                      Networking, fóruns e eventos online.
                     </li>
                   </ul>
                   <div className="bg-primary/10 relative z-10 mb-10 overflow-hidden rounded-md p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-body-color text-center text-base font-medium italic">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                      MentorQuest é a plataforma ideal para quem busca evolução
+                      profissional, networking qualificado e certificação
+                      reconhecida. Conecte-se, aprenda, compartilhe conquistas e
+                      destaque-se no LinkedIn.
                     </p>
                     <span className="absolute top-0 left-0 z-[-1]">
                       <svg
@@ -310,9 +306,11 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    O MentorQuest oferece uma experiência completa: atividades
+                    práticas, feedback personalizado, networking qualificado e
+                    certificação reconhecida no LinkedIn. Evolua
+                    profissionalmente com o suporte de mentores experientes e
+                    destaque-se no mercado.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">

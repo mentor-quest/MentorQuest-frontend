@@ -23,9 +23,9 @@ export default function RootLayout({
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
-          <Header />
+          {/* <Header /> removido do layout global */}
           {children}
-          <Footer />
+          {/* <Footer /> removido do layout global */}
           <ScrollToTop />
         </Providers>
       </body>
@@ -34,4 +34,3 @@ export default function RootLayout({
 }
 
 import { Providers } from "./providers";
-

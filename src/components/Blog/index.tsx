@@ -10,8 +10,8 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Conteúdo e Dicas de Mentoria"
+          paragraph="Conteúdos exclusivos sobre mentoria, carreira, networking e LinkedIn. Aprenda com especialistas, inspire-se em trajetórias reais e potencialize seu crescimento profissional com o MentorQuest."
           center
         />
 

@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Funcionalidades do MentorQuest"
+            paragraph="MentorQuest oferece perfis profissionais, matching inteligente, atividades práticas, avaliações detalhadas, certificados validados e integração total com LinkedIn. Tudo para conectar, desenvolver e certificar talentos de forma inovadora."
             center
           />
 
