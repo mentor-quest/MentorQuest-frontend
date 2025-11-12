@@ -14,8 +14,8 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+  pageName="Blog MentorQuest"
+  description="Conteúdos, dicas e histórias de sucesso para quem busca evolução profissional, networking qualificado e certificação reconhecida no LinkedIn. Descubra como o MentorQuest pode transformar sua carreira."
       />
 
       <section className="pt-[120px] pb-[120px]">

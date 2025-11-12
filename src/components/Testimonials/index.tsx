@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Ana Souza",
+    designation: "Analista de Marketing",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "O MentorQuest me conectou a mentores incríveis, que me ajudaram a evoluir profissionalmente e conquistar certificação reconhecida no LinkedIn. Recomendo para quem busca crescimento real!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Carlos Lima",
+    designation: "Desenvolvedor Frontend",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Com as atividades práticas e feedback detalhado dos mentores, consegui aprimorar minhas habilidades e ampliar meu networking. O certificado do MentorQuest fez diferença no meu currículo!",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Juliana Martins",
+    designation: "Gestora de Projetos",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "A plataforma é intuitiva e o acompanhamento dos mentores é fundamental para o desenvolvimento. O networking e os eventos online agregam muito valor à experiência!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

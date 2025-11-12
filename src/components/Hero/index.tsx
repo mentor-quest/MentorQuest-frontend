@@ -24,7 +24,7 @@ const Hero = () => {
                   MentorQuest une crescimento, networking e credibilidade em um
                   só lugar.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="bg-primary hover:bg-primary/80 rounded-xs px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
@@ -37,7 +37,7 @@ const Hero = () => {
                   >
                     Star on GitHub
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
