@@ -5,8 +5,9 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "MentorQuest - Blog | Dicas, Histórias e Networking Profissional",
+  description:
+    "Conteúdos, dicas e histórias de sucesso para evolução profissional, networking e certificação reconhecida no LinkedIn.",
   // other metadata
 };
 

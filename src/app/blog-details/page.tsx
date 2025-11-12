@@ -5,8 +5,9 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title: "MentorQuest - Detalhes do Blog | Mentoria Profissional e Networking",
+  description:
+    "Descubra como o MentorQuest transforma sua carreira com atividades práticas, networking e certificação reconhecida no LinkedIn.",
   // other metadata
 };
 

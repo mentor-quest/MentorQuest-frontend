@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Autocomplete from "@mui/material/Autocomplete";
+import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import TrilhaForm from "@/components/TrilhaForm";
 
@@ -83,51 +85,48 @@ export default function Dashboard() {
             className="flex flex-col items-center gap-4 md:flex-row"
             onSubmit={handleCriarTarefa}
           >
-            <select
-              className="rounded border px-2 py-1"
-              value={novaTarefa.tecnologia}
-              onChange={(e) =>
-                setNovaTarefa({ ...novaTarefa, tecnologia: e.target.value })
+            <Autocomplete
+              disablePortal
+              options={
+                trilhas.length > 0
+                  ? trilhas.map((t) => t.nome)
+                  : ["React", "Vue", "Node"]
               }
-            >
-              <option value="">Selecione uma trilha</option>
-              {trilhas.length > 0
-                ? trilhas.map((trilha, idx) => (
-                    <option key={idx} value={trilha.nome}>
-                      {trilha.nome}
-                    </option>
-                  ))
-                : [
-                    <option key="React" value="React">
-                      React
-                    </option>,
-                    <option key="Vue" value="Vue">
-                      Vue
-                    </option>,
-                    <option key="Node" value="Node">
-                      Node
-                    </option>,
-                  ]}
-            </select>
-            <select
-              className="rounded border px-2 py-1"
+              value={novaTarefa.tecnologia}
+              onChange={(_, newValue) =>
+                setNovaTarefa({ ...novaTarefa, tecnologia: newValue || "" })
+              }
+              sx={{ minWidth: 200 }}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="Trilha"
+                  placeholder="Selecione ou busque uma trilha"
+                />
+              )}
+            />
+            <TextField
+              select
+              label="Nível"
               value={novaTarefa.nivel}
               onChange={(e) =>
                 setNovaTarefa({ ...novaTarefa, nivel: Number(e.target.value) })
               }
+              sx={{ minWidth: 120 }}
             >
               <option value={1}>Nível 1</option>
               <option value={2}>Nível 2</option>
               <option value={3}>Nível 3</option>
-            </select>
-            <input
-              className="flex-1 rounded border px-2 py-1"
-              type="text"
-              placeholder="Descrição da tarefa"
+            </TextField>
+            <TextField
+              label="Descrição da tarefa"
+              variant="outlined"
+              fullWidth
               value={novaTarefa.descricao}
               onChange={(e) =>
                 setNovaTarefa({ ...novaTarefa, descricao: e.target.value })
               }
+              sx={{ minWidth: 200 }}
             />
             <Button
               type="submit"
