@@ -1,7 +1,10 @@
 "use client";
 import React, { useState } from "react";
+import TrilhaForm from "@/components/TrilhaForm";
 
 export default function Dashboard() {
+  // Estado para trilhas criadas pelo mentor
+  const [trilhas, setTrilhas] = useState([]);
   // Estado para tarefas criadas pelo mentor
   const [tarefas, setTarefas] = useState([
     // Inicialmente vazio ou com exemplo
@@ -68,6 +71,8 @@ export default function Dashboard() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-50 px-4">
       <section className="w-full max-w-3xl py-12">
+        {/* TrilhaForm component */}
+        <TrilhaForm trilhas={trilhas} setTrilhas={setTrilhas} />
         {/* Formulário para mentor criar tarefas */}
         <div className="mb-8">
           <h2 className="mb-4 text-xl font-bold text-blue-700">
@@ -84,9 +89,24 @@ export default function Dashboard() {
                 setNovaTarefa({ ...novaTarefa, tecnologia: e.target.value })
               }
             >
-              <option value="React">React</option>
-              <option value="Vue">Vue</option>
-              <option value="Node">Node</option>
+              <option value="">Selecione uma trilha</option>
+              {trilhas.length > 0
+                ? trilhas.map((trilha, idx) => (
+                    <option key={idx} value={trilha.nome}>
+                      {trilha.nome}
+                    </option>
+                  ))
+                : [
+                    <option key="React" value="React">
+                      React
+                    </option>,
+                    <option key="Vue" value="Vue">
+                      Vue
+                    </option>,
+                    <option key="Node" value="Node">
+                      Node
+                    </option>,
+                  ]}
             </select>
             <select
               className="rounded border px-2 py-1"
